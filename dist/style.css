@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+main {
+  background-color: #34495e;
+  height: auto;
+}
+
+main .container {
+  max-width: 900px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main .header {
+  background-color: white;
+  padding: 50px;
+}
+
+main .header nav {
+  margin-bottom: 40px;
+}
+
+main .header .title {
+  margin-bottom: 30px;
+}
+
+main .header img {
+  width: 100%;
+  border: 3px solid #3498db;
+}
+/*# sourceMappingURL=style.css.map */
